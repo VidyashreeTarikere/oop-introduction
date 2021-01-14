@@ -4,9 +4,9 @@
 class Beverage
 {
     //Create the properties color (string), price (float) and temperature (string) and also foresee a construct.
-    public $color;
-    public $price;
-    public $temperature;
+    private $color;
+    private $price;
+    private $temperature;
 
     const BARNAME = 'Het Vervolg';
     //Have a default value "cold" in the construct for temperature.

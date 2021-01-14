@@ -4,11 +4,13 @@
 class Beverage
 {
     //Create the properties color (string), price (float) and temperature (string) and also foresee a construct.
-    public $color;
-    public $price;
-    public $temperature;
+    private $color;
+    private $price;
+    private $temperature;
 
     const BARNAME = 'Het Vervolg';
+
+    public static $address = 'Melkmarkt 9, 2000 Antwerpen';
     //Have a default value "cold" in the construct for temperature.
     public function __construct($color, $price, $temperature = "cold")
     {
